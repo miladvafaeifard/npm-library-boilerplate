@@ -1,5 +1,11 @@
 # npm-library-boilerplate
 
+## 0.0.3
+
+### Patch Changes
+
+- a7da90d: Setup a job
+
 ## 0.0.2
 
 ### Patch Changes
