@@ -6,12 +6,20 @@
   "private": "false",
   "keywords": [],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "ci/cd": "pnpm run lint && pnpm run test && pnpm run build",
+    "publish": "pnpm run lint && pnpm run test && pnpm run build && changeset publish",
+    "test": "vitest run"
   },
   "author": "Milad Vafaeifard",
   "license": "MIT",
   "devDependencies": {
+    "changesets/cli": "",
     "@types/node": "",
-    "typescript": ""
+    "typescript": "",
+    "tsup": "",
+    "vitest": "",
+    "zod": ""
   }
 }
