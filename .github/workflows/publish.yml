@@ -10,11 +10,16 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: pnpm/action-setup@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: PNPM Setup
+        uses: pnpm/action-setup@v2
         with:
           version: 7
-      - uses: actions/setup-node@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: 16.x
           cache: "pnpm"
