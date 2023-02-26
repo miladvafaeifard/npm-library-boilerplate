@@ -1,5 +1,11 @@
 # npm-library-boilerplate
 
+## 0.0.1
+
+### Patch Changes
+
+- 22de23c: Init files
+
 ## 0.0.5
 
 ### Patch Changes
