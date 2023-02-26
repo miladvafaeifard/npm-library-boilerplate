@@ -1,11 +1,12 @@
 {
   "name": "@miladvafaeifard/npm-library-boilerplate",
   "version": "0.0.4",
+  "description": "NPM Library Boilerplate for reusability",
   "repository": "https://github.com/miladvafaeifard/npm-library-boilerplate",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "private": "false",
+  "private": false,
   "keywords": [],
   "scripts": {
     "dev": "vitest",
