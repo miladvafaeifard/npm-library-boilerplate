@@ -1,5 +1,12 @@
 # npm-library-boilerplate
 
+## 0.0.5
+
+### Patch Changes
+
+- 6870423: Add readme
+- 6870423: Test 1
+
 ## 0.0.4
 
 ### Patch Changes
