@@ -1,6 +1,6 @@
 {
   "name": "@miladvafaeifard/npm-library-boilerplate",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "NPM Library Boilerplate for reusability",
   "repository": "https://github.com/miladvafaeifard/npm-library-boilerplate",
   "main": "./dist/index.js",
