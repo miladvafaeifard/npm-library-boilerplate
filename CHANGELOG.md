@@ -1,5 +1,11 @@
 # npm-library-boilerplate
 
+## 0.0.4
+
+### Patch Changes
+
+- 2b39e04: Add new function
+
 ## 0.0.3
 
 ### Patch Changes
