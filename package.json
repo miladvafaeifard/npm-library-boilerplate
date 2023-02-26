@@ -1,6 +1,10 @@
 {
   "name": "@miladvafaeifard/npm-library-boilerplate",
+<<<<<<< Updated upstream
   "version": "0.0.5",
+=======
+  "version": "0.0.0",
+>>>>>>> Stashed changes
   "description": "NPM Library Boilerplate for reusability",
   "repository": "https://github.com/miladvafaeifard/npm-library-boilerplate",
   "main": "./dist/index.js",
